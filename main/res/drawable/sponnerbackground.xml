@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners
+        android:bottomRightRadius="10dp"
+        android:radius="40dp" />
+
+    <gradient
+        android:angle="45"
+        android:centerX="10"
+        android:centerY="10"
+        android:endColor="#FFFFFF"
+        android:gradientRadius="10"
+        android:startColor="#5CABEF"
+        android:type="linear" />
+
+
+    <size
+        android:width="50dp"
+        android:height="50dp" />
+
+    <!--Use android:dashWidth="2dp" and android:dashGap="2dp"
+    to add dashes to your stroke-->
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" />
+    <padding
+        android:bottom="5dp"
+        android:left="15dp"
+        android:right="5dp"
+        android:top="5dp"
+        />
+
+
+    <!-- <corners android:radius="15dp" />
+    <solid android:color="#80D8FF" />
+    <stroke
+        android:width="4dp"
+        android:color="#F4FF81">
+    </stroke>
+-->
+
+
+</shape>
